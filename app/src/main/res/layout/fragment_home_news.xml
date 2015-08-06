@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/news_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <ProgressBar
+        android:id="@+id/pb_home_news"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_refresh_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:drawableLeft="@drawable/refresh"
+        android:gravity="center"
+        android:text="@string/refresh"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_load02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pb_home_news"
+        android:layout_below="@+id/pb_home_news"
+        android:paddingLeft="3dp"
+        android:text="@string/refresh" />
+
+</RelativeLayout>

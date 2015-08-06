@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/face" />
+
+        <EditText
+            android:id="@+id/et_regist_number"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edit_corner_bg"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="8dp"
+            android:hint="手机号码"
+            android:inputType="phone" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_regist_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edit_corner_bg"
+            android:drawableLeft="@drawable/ic_key"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:hint="密码"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/et_regist_repassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edit_corner_bg"
+            android:drawableLeft="@drawable/ic_key"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:hint="确认密码"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_regist_check"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_corner_bg"
+                android:ems="10"
+                android:hint="验证码"
+                android:inputType="text"
+                android:paddingLeft="8dp"
+                android:textColor="#55000000" />
+
+            <Button
+                android:id="@+id/btn_check_btn"
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_btn_bg"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textColor="#99000000" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/dark_btn_bg"
+            android:padding="10dp"
+            android:text="注册"
+            android:textColor="#99ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

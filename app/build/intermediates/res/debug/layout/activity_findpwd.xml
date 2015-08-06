@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_tag_bg" >
+
+        <!-- android:background="#ffffff" -->
+
+        <TextView
+            android:id="@+id/tv_back1"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:descendantFocusability="blocksDescendants"
+            android:drawableLeft="@drawable/ic_jt_left"
+            android:text="@string/returns"
+            android:textColor="#9E3EFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_title1"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/title"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/tv_bg"
+            android:padding="6dp"
+            android:text="@string/login"
+            android:textColor="#8000FF"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_mobile_num"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/edit_corner_bg"
+        android:drawableLeft="@drawable/ic_phone"
+        android:ems="10"
+        android:hint="@string/please_input_phpne"
+        android:inputType="phone"
+        android:padding="2dp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ed_new_password"
+        android:layout_alignRight="@+id/ed_new_password"
+        android:layout_below="@+id/ed_new_password"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_find_check"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/edit_corner_bg"
+            android:ems="10"
+            android:hint="@string/identify_code"
+            android:inputType="text"
+            android:paddingLeft="8dp"
+            android:textColor="#55000000" />
+
+        <Button
+            android:id="@+id/btn_check_find"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/tv_bg"
+            android:gravity="center"
+            android:text="@string/obtain_identify_code"
+            android:textColor="#99000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ed_mobile_num"
+        android:layout_below="@+id/ed_new_password"
+        android:text="@string/tips"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/dark_btn_bg"
+        android:enabled="false"
+        android:padding="10dp"
+        android:text="@string/ok"
+        android:textColor="#99ffffff"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/ed_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/ed_mobile_num"
+        android:layout_below="@+id/ed_mobile_num"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_corner_bg"
+        android:drawableLeft="@drawable/ic_key"
+        android:ems="10"
+        android:hint="@string/please_input_newpwd"
+        android:inputType="textPassword"
+        android:padding="2dp" />
+
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_findpwd.xml -->

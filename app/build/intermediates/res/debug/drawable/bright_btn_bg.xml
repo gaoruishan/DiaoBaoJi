@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+            <corners android:radius="5.0dip" />
+
+            <solid android:color="#77ffffff" />
+
+            <padding android:left="3.0dip" android:right="3.0dip" />
+        </shape></item>
+    <item android:state_enabled="false"><shape>
+            <corners android:radius="2.0dip" />
+
+            <solid android:color="#77ffffff" />
+
+            <padding android:left="3.0dip" android:right="3.0dip" />
+        </shape></item>
+    <item><shape>
+            <corners android:radius="5.0dip" />
+
+            <!-- <solid android:color="#7E46CE" /> -->
+
+            <solid android:color="#D7D7D7" />
+            <!-- <solid android:color="#B76FFF" /> -->
+
+            <padding android:left="3.0dip" android:right="3.0dip" />
+        </shape></item>
+
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/bright_btn_bg.xml -->

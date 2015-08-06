@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popWindowstyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical" >
+
+</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/popwindow_style.xml -->

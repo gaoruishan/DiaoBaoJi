@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titlebar_login"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/face" />
+
+        <EditText
+            android:id="@+id/et_login_number"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:background="@drawable/edit_corner_bg"
+            android:drawableLeft="@drawable/ic_phone"
+            android:ems="20"
+            android:hint="@string/moblie"
+            android:inputType="phone"
+            android:padding="2dp"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edit_corner_bg"
+            android:drawableLeft="@drawable/ic_key"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="2dp"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cb_remm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/remeber_password" />
+
+            <CheckBox
+                android:id="@+id/cb_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/auto_login" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:background="@drawable/dark_btn_bg"
+            android:padding="10dp"
+            android:text="@string/login"
+            android:textColor="#99ffffff"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp" >
+
+            <TextView
+                android:id="@+id/tv_regist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dip"
+                android:text="@string/register"
+                android:textColor="#99ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_login_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dip"
+                android:text="@string/forget_password"
+                android:textColor="#99ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_login.xml -->

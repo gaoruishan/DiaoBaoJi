@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_containers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- android:id="@+id/fragment_containers" -->
+
+
+    <!-- ScrollView   android:layout_width="match_parent" -->
+
+
+    <!-- android:layout_height="match_parent" -->
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_tag_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/buttom_tab_center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/tv_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/login"
+            android:textColor="#AD5BFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1" >
+
+        <ImageView
+            android:id="@+id/iv_face"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:contentDescription="@string/description"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_face" />
+
+        <com.zjwy.tiaobaojinew.widget.CircleImageView
+            android:id="@+id/iv_center_head"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo12"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_accout_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text=""
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_face"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/center_orderlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tv_bg01"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants" >
+
+            <ImageView
+                android:id="@+id/iv_icon_orderlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_orderlist" />
+
+            <TextView
+                android:id="@+id/tv_orderlist"
+                style="@style/setting_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_icon_orderlist"
+                android:text="@string/my_order"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_jt_right" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_orderlist"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/iv_icon_orderlist"
+                android:background="@color/app_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_bg01"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants" >
+
+            <ImageView
+                android:id="@+id/iv_icon_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_userinfo" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                style="@style/setting_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_icon_info"
+                android:text="@string/user_infos"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_jt_right" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_info"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/iv_icon_info"
+                android:background="@color/app_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_bg01"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants" >
+
+            <ImageView
+                android:id="@+id/iv_icon_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_mycoupon" />
+
+            <TextView
+                android:id="@+id/tv_collect"
+                style="@style/setting_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_icon_collect"
+                android:text="@string/my_coupon"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_jt_right" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_collect"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/iv_icon_collect"
+                android:background="@color/app_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_bg01"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants" >
+
+            <ImageView
+                android:id="@+id/iv_icon_aboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_aboutus" />
+
+            <TextView
+                android:id="@+id/tv_aboutus"
+                style="@style/setting_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_icon_aboutus"
+                android:text="@string/about_us"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:contentDescription="@string/description"
+                android:src="@drawable/ic_jt_right" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_aboutus"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/iv_icon_aboutus"
+                android:background="@color/app_bg" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/l2"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:contentDescription="@string/description"
+        android:src="@drawable/logo1" />
+
+</RelativeLayout> <!-- </ScrollView> -->
+<!-- <include -->
+<!-- layout="@layout/center_fragments" -->
+<!-- android:visibility="gone" /> -->
+<!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/layout_centers.xml -->

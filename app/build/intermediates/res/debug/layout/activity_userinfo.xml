@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_tag_bg" >
+
+        <TextView
+            android:id="@+id/tv_back_user"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_jt_left"
+            android:text="@string/returns"
+            android:textColor="#9E3EFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_title_user"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/title"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_other_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/tv_bg"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:padding="8dp"
+            android:text="@string/edits"
+            android:textColor="#8000FF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ll_heads"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="@string/username"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textview00"
+            android:layout_alignLeft="@+id/textview00"
+            android:background="#C0C0C0" />
+
+        <LinearLayout
+            android:id="@+id/ll_heads"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_head"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5.44"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/head"
+                android:textSize="18sp" />
+
+            <com.zjwy.tiaobaojinew.widget.CircleImageView
+                android:id="@+id/iv_head"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.05"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/ll_heads"
+            android:layout_alignLeft="@+id/textView3"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignLeft="@+id/tv_user_sex"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="@string/nones" />
+
+        <EditText
+            android:id="@+id/et_user_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/tv_user_sign"
+            android:layout_alignBottom="@+id/tv_user_sign"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_user_sign"
+            android:background="@null"
+            android:descendantFocusability="blocksDescendants"
+            android:ems="10"
+            android:hint="@string/diaobaoji"
+            android:inputType="textPostalAddress"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"
+            android:background="#C0C0C0" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/tv_nickname"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:descendantFocusability="blocksDescendants"
+            android:ems="10"
+            android:hint="@string/beijin"
+            android:inputType="textPostalAddress"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/tv_accout"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="@string/man" />
+
+        <TextView
+            android:id="@+id/tv_accout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:background="#C0C0C0" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:background="#C0C0C0" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/tv_user_sign"
+            android:layout_alignLeft="@+id/tv_user_sign"
+            android:background="#C0C0C0" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/textview00"
+            android:layout_alignBottom="@+id/textview00"
+            android:layout_alignLeft="@+id/tv_accout"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="@string/ellipsis" />
+
+        <TextView
+            android:id="@+id/textview00"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:gravity="center_vertical"
+            android:text="@string/passwords"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/view1"
+            android:layout_below="@+id/tv_password"
+            android:gravity="center_vertical"
+            android:text="@string/genders"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/view2"
+            android:layout_alignTop="@+id/view2"
+            android:gravity="center_vertical"
+            android:text="@string/nicknames"
+            android:textSize="18sp" />
+
+        <com.zjwy.tiaobaojinew.widget.CustomTextView
+            android:id="@+id/tv_user_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/view3"
+            android:layout_below="@+id/tv_nickname"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:text="@string/individual_sign"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/view5"
+            android:layout_below="@+id/et_user_sign"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:text="@string/address"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/ic_jt_right" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view1"
+            android:layout_alignLeft="@+id/imageView07"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/ic_jt_right" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/dark_btn_bg"
+        android:padding="10dp"
+        android:text="@string/logout"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_userinfo.xml -->

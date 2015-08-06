@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/bg_pic_ground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgPerson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgClothing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:scaleType="matrix"
+            android:scaleX="0.9"
+            android:scaleY="0.9" />
+
+        <Button
+            android:id="@+id/bg_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            android:drawableTop="@drawable/ic_bg"
+            android:text="背景图片"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bg_mus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bg_pic"
+            android:layout_alignBottom="@+id/bg_pic"
+            android:layout_toRightOf="@+id/bg_pic"
+            android:background="@drawable/ic_pauses"
+            android:gravity="bottom|center"
+            android:text="背景音乐"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+    <!-- 返回 -->
+
+    <LinearLayout
+        android:id="@+id/layermodules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/layerModuleClothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="62.0dip"
+                android:paddingLeft="1.0dip" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:background="#00000000"
+            android:drawableTop="@drawable/btn_return_2"
+            android:text="模特" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerFavor"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:tag="0" >
+
+        <!-- 点击收藏喜欢的 -->
+
+        <Button
+            android:id="@+id/imgFavor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:drawableTop="@drawable/btn_return_1"
+            android:padding="0.0dip"
+            android:text="选包" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/layerClothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="62.0dip"
+                android:paddingLeft="1.0dip"
+                android:visibility="gone" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerLoading"
+        android:layout_width="250.0dip"
+        android:layout_height="100.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_layer_apache"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/loadingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/loading"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerInfoCamera"
+        android:layout_width="300.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60.0dip"
+        android:background="@drawable/bg_info_camera"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23.0dip"
+            android:text="@string/info_camera"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerInfoClothing"
+        android:layout_width="320.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60.0dip"
+        android:background="@drawable/bg_info_clothing"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23.0dip"
+            android:text="@string/info_clothing"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <!-- 调整 -->
+
+    <LinearLayout
+        android:id="@+id/layerChange"
+        android:layout_width="fill_parent"
+        android:layout_height="130.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60.0dip"
+        android:background="#afabadb3"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5.0dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/ld"
+                    android:textColor="#ffffffff"
+                    android:textSize="16.0sp" />
+                <!-- 亮度 -->
+
+                <SeekBar
+                    android:id="@+id/sbLD"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:max="255"
+                    android:progress="63" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/dbd"
+                    android:textColor="#ffffffff"
+                    android:textSize="16.0sp" />
+                <!-- 对比度 -->
+
+                <SeekBar
+                    android:id="@+id/sbDBD"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:max="127"
+                    android:progress="63" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 第二层 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <!-- 左一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeLeft"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/click_bg_clothing_btn_change_left"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toLeft"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+            <!-- 右一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeRight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/click_bg_clothing_btn_change_right"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toRight"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+            <!-- 高一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeHigh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/click_bg_clothing_btn_change_high"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toHigh"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+            <!-- 唉一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeShort"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/click_bg_clothing_btn_change_short"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toShort"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+            <!-- 胖一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeFat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/bg_clothing_btn_change_fat"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toFat"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+            <!-- 瘦一点 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnChangeThin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/click_bg_clothing_btn_bar"
+                    android:drawableTop="@drawable/click_bg_clothing_btn_change_thin"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:text="@string/yyasp_toThin"
+                    android:textColor="@drawable/click_bg_textcolor2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 分享布局 -->
+
+    <LinearLayout
+        android:id="@+id/layerShare"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="70.0dip"
+        android:background="#efabadb3"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="5.0dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:gravity="center_vertical"
+            android:text="@string/shareTitle"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:id="@+id/txtRemark"
+            android:layout_width="fill_parent"
+            android:layout_height="75.0dip"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:singleLine="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="67.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:background="@drawable/click_bg_btn_button"
+                android:text="@string/yyasp_share"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/btnSendCancel"
+                android:layout_width="67.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/click_bg_btn_button"
+                android:text="@string/guestbook_cancelmsg"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#50abadb3"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20.0dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/buttonClothing"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/click_bg_clothing_btn_bar"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:tag="1" >
+
+                <!-- 选衣 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0sp"
+                    android:background="#ff000000" />
+
+                <ImageView
+                    android:id="@+id/buttonImageClothing"
+                    android:layout_width="fill_parent"
+                    android:layout_height="39.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:paddingTop="3.0dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/recover" />
+
+                <TextView
+                    android:id="@+id/buttonTextClothing"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20.0dip"
+                    android:gravity="top|center"
+                    android:text="@string/yyasp_clothing"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonChange"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/click_bg_clothing_btn_bar"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:tag="1" >
+
+                <!-- 调整 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0sp"
+                    android:background="#ff000000" />
+
+                <ImageView
+                    android:id="@+id/buttonImageChange"
+                    android:layout_width="fill_parent"
+                    android:layout_height="39.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:paddingBottom="4.0dip"
+                    android:paddingTop="4.0dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/room_set_1" />
+
+                <TextView
+                    android:id="@+id/buttonTextChange"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20.0dip"
+                    android:gravity="top|center"
+                    android:text="@string/yyasp_change"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonCamera"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/click_bg_clothing_btn_bar"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!-- 拍照 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0sp"
+                    android:background="#ff000000" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="39.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:paddingBottom="-2.0dip"
+                    android:paddingTop="-2.0dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/room_camera_1" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20.0dip"
+                    android:gravity="top|center"
+                    android:text="@string/yyasp_camera"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonShare"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/click_bg_clothing_btn_bar"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!-- 分享 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0sp"
+                    android:background="#ff000000" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="39.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:paddingBottom="4.0dip"
+                    android:paddingTop="4.0dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_room_share_1" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20.0dip"
+                    android:gravity="top|center"
+                    android:text="@string/yyasp_share"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonSave"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/click_bg_clothing_btn_bar"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!-- 保存 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0sp"
+                    android:background="#ff000000" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="39.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="5.0dip"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_room_save_1" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20.0dip"
+                    android:gravity="top|center"
+                    android:text="@string/yyasp_save"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

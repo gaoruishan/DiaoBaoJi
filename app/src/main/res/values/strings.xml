@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">调包计</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit_str">再按一次退出</string>
+    <string name="default_pay">支付宝wap(默认)</string>
+    <string name="buttom_tab_home">主页</string>
+    <string name="description">ImageView</string>
+    <string name="getmore">加载更多</string>
+    <string name="buttom_tab_sort">分类</string>
+    <string name="buttom_tab_shopping">购物车</string>
+    <string name="buttom_tab_center">个人中心</string>
+    <string name="returns">返回</string>
+    <string name="title">标题</string>
+    <string name="arrive_buttom">已到底部</string>
+    <string name="rents_7">租价：RMB 99元/7天</string>
+    <string name="rents_10">"               RMB  199元/10天"</string>
+    <string name="market_price">"市场价 12000 RMB "</string>
+    <string name="sale_infos">促销信息：</string>
+    <string name="preferent">优惠</string>
+    <string name="jian">满减</string>
+    <string name="jian_9">"满99元减9元 "</string>
+    <string name="jian_19">"满199元减19元 "</string>
+    <string name="jian_199">"满299元减29元 "</string>
+    <string name="gifts">"赠可爱小熊或时尚的耳罩 "</string>
+    <string name="set_order">立即下单</string>
+    <string name="add_shopping">加入购物车</string>
+    <string name="brand">品牌：</string>
+    <string name="brands">品 牌</string>
+    <string name="sort">. 款式： 手拎包</string>
+    <string name="origin">.产地：法国</string>
+    <string name="level_new">.新旧程度：全新未使用</string>
+    <string name="material_inner">.内部材质：绒布</string>
+    <string name="size">.尺寸:31cm x 25cm x 14cm</string>
+    <string name="colors">.颜色：酒红色</string>
+    <string name="structure_inner">.内部结构:1个按扣贴袋， 1个手机拉</string>
+    <string name="style_open">.开合方式：拉链</string>
+    <string name="material_outer">.面料材质：西皮</string>
+    <string name="refresh">刷新重试</string>
+    <string name="login">登陆</string>
+    <string name="my_order">我的订单</string>
+    <string name="user_infos">个人信息</string>
+    <string name="my_coupon">我的优惠券</string>
+    <string name="about_us">关于我们</string>
+    <string name="nulls">"     "</string>
+    <string name="company">一、公司简介</string>
+    <string name="contents">"     知金教育成立于2006年，是经国家教育部批准的现代远程教育公共服务体系试点项目运营机构，业务涵盖高等远程学历教育、行业企业定制化培训、职业 技能培训、校企合作特色培训等诸多领域。知金教育以打造专业化的支持服务体系为立身之本，致力于通过先进的互联网、移动互联网技术平台融汇优质的教育资 源，利用大数据技术整合数字化资源，挖掘数据价值，并坚持以客户需求为导向，为政府、行业、企业和高校等提供教育培训、项目研发、市场咨询、支持服务等一 体化解决方案。"</string>
+    <string name="kouhu">核心价值观：关爱、成长、分享
+\n
+\n经营理念：务实、兼容、纳新、进取
+\n
+\n品牌主张：不仅高一步，更需远一程
+\n
+\n品牌精神：是金子必会发光</string>
+    <string name="culture">二、企业文化</string>
+    <string name="care4">三、知金关爱</string>
+    <string name="things">1、为支教女教师圆梦
+\n
+\n2、资助农家女培训学校
+\n
+\n3、积极参与广东省“圆梦计划”
+\n
+\n4、捐款青少年发展基金会</string>
+    <string name="title_activity_orders">OrdersActivity</string>
+    <string name="network_problem">网络出了问题!</string>
+    <string name="please_login">请登录!</string>
+    <string name="cancelled">已注销！</string>
+    <string name="update_success">上传成功</string>
+    <string name="deleted">已删除</string>
+    <string name="ok">确定</string>
+    <string name="please_input_newpwd">请输入新密码</string>
+    <string name="please_input_oldpwd">请输入旧密码</string>
+    <string name="tips">提示：长度6至20位。</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="secret">保密</string>
+    <string name="gender">性别：</string>
+    <string name="nickname">昵称：</string>
+    <string name="please_input_phpne">请输入手机号码</string>
+    <string name="identify_code">验证码</string>
+    <string name="obtain_identify_code">获取验证码</string>
+    <string name="moblie">手机号码</string>
+    <string name="password">密码</string>
+    <string name="remeber_password">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="register">注册 ></string>
+    <string name="forget_password">忘记密码 ?</string>
+    <string name="all_orders">全部订单</string>
+    <string name="unfilled_orders">未完成订单</string>
+    <string name="order_detail">订单详情</string>
+    <string name="styles">款式：</string>
+    <string name="styless">款 式</string>
+    <string name="rent_date">租期：</string>
+    <string name="rents7">99元/7天</string>
+    <string name="rents10">139元/10天</string>
+    <string name="payment_way">支付方式：</string>
+    <string name="coupon">优惠券</string>
+    <string name="save50">" 省50元！"</string>
+    <string name="uses">使用</string>
+    <string name="remarks">备注：</string>
+    <string name="please_input_message">"  请在此输入你的留言！"</string>
+    <string name="ensure_ok">确认并提交</string>
+    <string name="click_next">点击下一页</string>
+    <string name="immediate_exprience">立即体验</string>
+    <string name="edits">编辑</string>
+    <string name="username">用户名：</string>
+    <string name="head">头像：</string>
+    <string name="diaobaoji">http://wap.koudaitong.com/v2/showcase/homepage?kdt_id=21980&amp;spm=f4316039_h20955_f1261786</string>
+    <string name="beijin">北京</string>
+    <string name="nones">无</string>
+    <string name="passwords">密码：</string>
+    <string name="genders">性别：</string>
+    <string name="nicknames">昵称：</string>
+    <string name="individual_sign">个性签名：</string>
+    <string name="address">地址：</string>
+    <string name="logout">退出账号</string>
+    <string name="name">姓名:</string>
+    <string name="phone">电话:</string>
+    <string name="city">市</string>
+    <string name="country">区(镇)</string>
+    <string name="loading">"   加载中.."</string>
+    <string name="_">\@</string>
+    <string name="total">合计：</string>
+    <string name="doller">￥0元</string>
+    <string name="lines">---------------------------</string>
+    <string name="shop_cart">购物车</string>
+    <string name="share">分 享</string>
+    <string name="select_all">全选</string>
+    <string name="settlement">结算</string>
+    <string name="all_doller">(合计:￥0.00)</string>
+    <string name="select_sum">总共选择了：</string>
+    <string name="prices">价 格</string>
+    <string name="note01">商品名称：爱马仕</string>
+    <string name="note02">订单金额：199</string>
+    <string name="note03">租贷时间：2014年12月04日</string>
+    <string name="note04">下单时间：2014年12月04日</string>
+    <string name="complete_transation">交易完成</string>
+    <string name="delete_orders">删除订单</string>
+    <string name="continue_pay">继续支付</string>
+    <string name="comment">评论</string>
+    <string name="order_number">订单编号：2014121422</string>
+    <string name="style_notes">款式：手拎包</string>
+    <string name="ellipsis">...........</string>
+    <string name="title_null">标题:缺失</string>
+    <string name="content_null">内容：暂无</string>
+    <string name="modify_success">修改成功</string>
+    <string name="load_more">加载更多</string>
+
+    <integer name="app_version_code">3</integer>
+
+    <string name="app_version">1.0.2</string>
+    <string name="proj_name">ShareSDK Socialization</string>
+    <string name="sm_item_comment_like">评论与赞</string>
+    <string name="share_content">ShareSDK for Android不仅集成简单、支持如QQ好友、微信、新浪微博、腾讯微博等所有社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
+    <string name="share_content_short">ShareSDK不仅集成简单、支持如微信、新浪微博、腾讯微博等社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
+    <string name="comment_like_id">ssdk20131220190000</string>
+    <string name="comment_like_title">调包计“评论与赞”模块发布</string>
+    <string name="comment_like_publich_time">2013-12-20 19:00</string>
+    <string name="comment_like_author">调包计</string>
+    <string name="comment_like_comment_list">跟帖</string>
+    <string name="like_success">点赞成功</string>
+    <string name="like_fail">点赞失败</string>
+    <string name="sharesdk">ShareSDK评论与赞组件</string>
+    <string name="rotate">旋 转</string>
+    <string name="package_room">试包室</string>
+    <string name="info_camera">照相</string>
+    <string name="info_clothing">搭配</string>
+    <string name="ld">人像亮度　：</string>
+    <string name="dbd">人像对比度：</string>
+    <string name="sc">色彩饱和</string>
+    <string name="yyasp_toLeft">左旋转</string>
+    <string name="yyasp_toRight">右旋转</string>
+    <string name="yyasp_toHigh">高一点</string>
+    <string name="yyasp_toShort">矮一点</string>
+    <string name="yyasp_toFat">胖一点</string>
+    <string name="yyasp_toThin">瘦一点</string>
+    <string name="shareTitle">请输入您想要说的话：</string>
+    <string name="yyasp_change">调整</string>
+    <string name="yyasp_camera">拍照</string>
+    <string name="yyasp_save">保存</string>
+    <string name="yyasp_share">分享</string>
+    <string name="guestbook_cancelmsg">取消</string>
+    <string name="yyasp_clothing">恢复重选</string>
+    <string name="help_camera_title">温馨提示</string>
+    <string name="help_camera_say">　　拍照小提示：穿较贴身的衣服，双手置于后背，两腿并拢身体保持直立，较好的光线，拍摄角度应和被拍摄者保持水平，全身照。这样，您将会享受到真正的试衣乐趣～</string>
+    <string name="help_camera_person">● 标准试衣照片</string>
+    <string name="help_camera_choice1">相机拍照</string>
+    <string name="help_camera_choice2">相册导入</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+</resources>

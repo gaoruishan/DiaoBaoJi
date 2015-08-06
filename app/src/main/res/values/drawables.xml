@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明 -->
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="yyasp_enableColor" type="drawable">#ff1e1e1e</item>
+    <item name="yyasp_clickColor" type="drawable">#ff68befb</item>
+    <item name="yyasp_whiteColor" type="drawable">#fff1f1f1</item>
+    <item name="yyasp_disenableColor" type="drawable">#ff505050</item>
+    <item name="btn_bg_nomal" type="drawable">#fff1f1f1</item>
+    <item name="btn_bg_click" type="drawable">#fffcb08a</item>
+
+</resources>

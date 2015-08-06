@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_tag_bg" >
+
+        <!-- android:background="#ffffff" -->
+
+        <TextView
+            android:id="@+id/tv_back_edit"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:descendantFocusability="blocksDescendants"
+            android:drawableLeft="@drawable/ic_jt_left"
+            android:text="@string/returns"
+            android:textColor="#9E3EFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_title_edit"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/title"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/tv_bg"
+            android:padding="6dp"
+            android:text="@string/login"
+            android:textColor="#8000FF"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignLeft="@+id/ed_nickname"
+        android:layout_alignRight="@+id/ed_nickname"
+        android:layout_below="@+id/ed_nickname"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dark_btn_bg"
+        android:enabled="false"
+        android:padding="10dp"
+        android:text="@string/ok"
+        android:textColor="#99ffffff"
+        android:textSize="17sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rd_nan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.80"
+            android:checked="true"
+            android:text="@string/man" />
+
+        <RadioButton
+            android:id="@+id/rd_nv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.76"
+            android:text="@string/woman" />
+
+        <RadioButton
+            android:id="@+id/rd_null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/secret" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ed_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01"
+        android:background="@drawable/edit_corner_bg01"
+        android:drawableLeft="@drawable/pen"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/rg_sex"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/gender"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/rg_sex"
+        android:layout_marginTop="26dp"
+        android:gravity="center_vertical"
+        android:text="@string/nickname"
+        android:textSize="18sp" />
+
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_edituser.xml -->

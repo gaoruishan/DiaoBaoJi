@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false"><shape>
+            <corners android:radius="9.0dip" />
+
+            <solid android:color="#DBDBDB" />
+
+            <padding android:left="5.0dip" android:right="5.0dip" />
+        </shape></item>
+    <item><shape>
+            <corners android:radius="9.0dip" />
+
+            <solid android:color="#7E46CE" />
+
+            <padding android:left="5.0dip" android:right="5.0dip" />
+        </shape></item>
+
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/dark_btn_bg01.xml -->

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/help_camera_title"
+            android:textColor="#ffff5500"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5.0sp"
+            android:padding="5.0dip"
+            android:text="@string/help_camera_say"
+            android:textColor="#ff000000"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:background="#ffcccccc"
+            android:padding="5.0dip"
+            android:text="@string/help_camera_person"
+            android:textColor="#ff000000"
+            android:textSize="14.0sp" />
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linerPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffabadb3"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:background="#ffcccccc"
+        android:orientation="horizontal"
+        android:paddingBottom="4.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingTop="24.0dip" >
+
+        <!--  -->
+
+        <Button
+            android:id="@+id/btnChoiceCamera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/click_bg_btn_enter"
+            android:text="@string/help_camera_choice1"
+            android:textColor="#ff000000"
+            android:textSize="14.0sp" />
+
+        <Button
+            android:id="@+id/btnChoiceAblum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/click_bg_btn_enter"
+            android:text="@string/help_camera_choice2"
+            android:textColor="#ff000000"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_shoppingtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_tag_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/shop_cart"
+            android:textColor="#8000FF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/tv_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/share" />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#FFFFFF" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_tag_bg" >
+
+        <!-- android:background="@drawable/buttom_tag_bg" -->
+
+        <CheckBox
+            android:id="@+id/cb_shopping_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/select_all" />
+
+        <Button
+            android:id="@+id/bt_settlement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cb_shopping_all"
+            android:layout_alignBottom="@+id/cb_shopping_all"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/dark_btn_bg"
+            android:padding="3dp"
+            android:text="@string/settlement" />
+
+        <TextView
+            android:id="@+id/tv_shopping_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cb_shopping_all"
+            android:layout_centerHorizontal="true"
+            android:text="@string/all_doller"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_order_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/cb_shopping_all"
+            android:layout_centerHorizontal="true"
+            android:text="@string/select_sum" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/layout_shoping.xml -->

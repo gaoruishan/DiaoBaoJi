@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- EditText的属性： -->
+    <!-- android:autoText="true" -->
+    <!-- android:shadowColor指定文本阴影的颜色，需要与shadowRadius一起使用 -->
+    <!-- android:shadowRadius设置阴影的半径。设置为0.1就变成字体的颜色了，一般设置为3.0的效果比较好。 -->
+    <!-- android:singleLine设置单行显示。如果和layout_width一起使用，当文本不能全部显示时，后面用“…”来表示。 -->
+    <!-- android:inputType设置文本的类型，用于帮助输入法显示合适的键盘类型。 -->
+    <!-- android:ellipsize设置当文字过长时,该控件该如何显示。有如下值设置：”start”—?省略号显示在开头;”end”——省略号显示在结尾;”middle”—-省略号显示在中间;”marquee” ——以跑马灯的方式显示(动画横向移动) -->
+    <!-- android:autoText如果设置，将自动执行输入值的拼写纠正。 -->
+    <!-- android:imeOptions="actionSend" EditText 回车事件 -->
+
+
+    <!-- android:text="爱马仕" -->
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/tv_search"
+        android:autoText="true"
+        android:background="@drawable/rl_bg"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="输入关键字"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_search"
+        android:layout_alignBottom="@+id/et_search"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/tv_bg"
+        android:clickable="true"
+        android:padding="6dp"
+        android:text="搜索"
+        android:textColor="#B366FF"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignLeft="@+id/et_search"
+        android:layout_alignRight="@+id/et_search"
+        android:layout_below="@+id/et_search" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ll_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="惊喜活动"
+            android:textColor="#FF0000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="1.4dp"
+            android:layout_height="match_parent"
+            android:background="#9A35FF" />
+
+        <TextView
+            android:id="@+id/recommended"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="精品推荐"
+            android:textColor="#9A35FF"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="1.4dp"
+            android:layout_height="match_parent"
+            android:background="#9A35FF" />
+
+        <TextView
+            android:id="@+id/newStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="最新流行"
+            android:textColor="#9A35FF"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" >
+    </android.support.v4.view.ViewPager>
+
+    <ListView
+        android:id="@+id/auto_listviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/et_search"
+        android:background="#F9F9F9" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="#00000000"
+        android:clickable="true"
+        android:drawableTop="@drawable/icon_qrcode_normal1"
+        android:text="扫一扫"
+        android:textSize="10sp" />
+
+</RelativeLayout>

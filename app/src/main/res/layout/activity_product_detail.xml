@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0" >
+
+    <!-- 标题布局 -->
+
+    <include
+        android:id="@+id/prod_titlebar_ref"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/prod_titlebar" />
+
+    <com.zjwy.tiaobaojinew.widget.MyScrollView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/prod_titlebar_ref" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- viewPager布局 -->
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/prod_vplayout" />
+
+            <!-- 填充中间文本内容的布局 -->
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/content_txt_items" />
+
+            <!-- 填充下方图片的布局 -->
+
+            <include
+                android:layout_width="match_parent"
+                layout="@layout/content_pic_items" />
+        </LinearLayout>
+    </com.zjwy.tiaobaojinew.widget.MyScrollView>
+
+    <TextView
+        android:id="@+id/tv_buttom_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/qcBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/load_more"
+        android:textColor="#8000FF"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/backTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/lv_backtotop" />
+
+    <ImageView
+        android:id="@+id/iv_prod_package"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:onClick="ImClickPackage"
+        android:src="@drawable/room_clothing_favor" />
+
+    <TextView
+        android:id="@+id/tv_prod_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/prod_titlebar_ref"
+        android:background="#ffffff" />
+
+    <ProgressBar
+        android:id="@+id/pb_prod"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_prod_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_prod"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/prod_bottom_layout"
+        android:background="#C0C0C0"
+        android:height="1dp" />
+
+    <include
+        android:id="@+id/prod_bottom_layout"
+        layout="@layout/prod_bottom_layout" />
+
+</RelativeLayout>
