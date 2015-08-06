@@ -110,4 +110,4 @@
         android:id="@+id/prod_bottom_layout"
         layout="@layout/prod_bottom_layout" />
 
-</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_product_detail.xml -->
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/activity_product_detail.xml -->

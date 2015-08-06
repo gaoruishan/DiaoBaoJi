@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/bg_btn_enter_2" />
     <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/bg_btn_enter_2" />
     <item android:state_enabled="true" android:drawable="@drawable/bg_btn_enter_1" />
-</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/click_bg_btn_enter.xml -->
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/drawable/click_bg_btn_enter.xml -->

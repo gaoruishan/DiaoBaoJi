@@ -13,4 +13,4 @@
         android:scaleType="fitXY"
         android:src="@drawable/logo1" />
 
-</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/list_items_iv_best.xml -->
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/list_items_iv_best.xml -->

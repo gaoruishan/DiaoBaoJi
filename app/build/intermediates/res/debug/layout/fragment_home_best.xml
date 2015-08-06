@@ -43,4 +43,4 @@
         android:paddingLeft="3dp"
         android:text="@string/loading" />
 
-</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/fragment_home_best.xml -->
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/fragment_home_best.xml -->

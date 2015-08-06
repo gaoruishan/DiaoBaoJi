@@ -6,4 +6,4 @@
     android:background="@drawable/pager01"
     android:contentDescription="@string/app_name"
     android:scaleType="center" />
-<!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_welcome.xml -->
+<!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/activity_welcome.xml -->

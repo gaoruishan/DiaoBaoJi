@@ -2,32 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Core-2.5.7.jar"
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/mframework.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
-        sha1="25e67604b25ca1160a50cbd6a1657d11ec0396fb">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.5.7-19cd66ea294000012f60e3c8227c381ab5f08b7b.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Twitter-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="77db5625390fb7b34d91bfa71862d9885a22abaa">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Twitter-2.5.7-efc4a3d74fcbb135c376dc2a4569cb28fc8f7544.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Moments-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="04b9f4f246636fb6a4bc4148530181bc6c739a5d">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-2.5.7-7b3819752a5791ecb7e1d9c12957b7f6909ed9d1.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/fastjson-1.1.33.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="43b49a6933e68564ddc291d941db1bd1bd4166fc">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/fastjson-1.1.33-6623069a6f61fa53c10e13a0ae2df8b3c4b020e1.jar" />
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/mframework-a26529f5bb4e257b88e4d1e99c07d71f04904bf5.jar" />
     </item>
     <item
         jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/AnalysisSDK_0.0.3.jar"
@@ -37,109 +16,11 @@
         <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/AnalysisSDK_0.0.3-1fdf983ad397ed57b946f1d12f8095602c206215.jar" />
     </item>
     <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/SMSSDK-1.1.6.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="7e54148d164e6e61871547e4d9182fe1c2da6eb9">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/SMSSDK-1.1.6-d113346445c3269a2c177943b547e4062325585f.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-TencentWeibo-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="b0b038c538a8c80cd80f1b619aa3c9ab8ee4f395">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-TencentWeibo-2.5.7-427f6fc4d92adf7e00bfbea8f1f62bd33a46c7b7.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Facebook-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="2f9a1ded6bb27e0ce83f465756a4b4f65c322def">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Facebook-2.5.7-340aa22aa89b12beea7df8bc276480de62128fa0.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-QQ-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="5695093ba99154d84be4e12132bc384aeb613d73">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.5.7-3d7f1e2c706b94a5efbcc7c4bb359a5d3248c953.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/httpmime-4.1.3.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/httpmime-4.1.3-bf48b0432480566240bebe38d1060a5f3430f67b.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Favorite-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="0ab12e86664b655baa13f495a111cc68be96bd2b">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Favorite-2.5.7-2c2051f1584cf2b9963edd9a4fa5ecd34b0dce66.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Core-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="de8398c14e9f17901d2d75956557acc960c15f7b">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.5.7-b3099e1121c7b02479ddb08d723024f45d0fc3d0.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-QZone-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="eec402205e45c215154dbf06eb66373f376fc0fd">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-QZone-2.5.7-bc25884950ffffa33a09f506f614205acac024c3.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/jpush-sdk-release1.7.2.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="4f743a1eddb7679dc54243ba3961cef48dd65099">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/jpush-sdk-release1.7.2-f7a63f1be8862d591aaa7d552c92b943f6b14d7d.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/zxing.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/zxing-2f04011ec76a6428836c3b77b5460afd8b8cb830.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Email-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="8db046faf247fc554020efa360bff6043bed1b31">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Email-2.5.7-3e2cd9e1cc0b8da1e249dd537f96485131d12f8c.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/mframework.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/mframework-a26529f5bb4e257b88e4d1e99c07d71f04904bf5.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-2.5.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="71cbc10d22470e5c162083883fde221f8cb53ae7">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.5.7-08e72b90992be1063e68d7f1c954c5f7f3fe5b58.jar" />
-    </item>
-    <item
         jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-ShortMessage-2.5.7.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="edacd1b6df9a34d52aec745e0ba26cc4817b46cc">
         <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-ShortMessage-2.5.7-bcc951ed5677f57c0c915fa96affc95f76b4654a.jar" />
-    </item>
-    <item
-        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/xUtils-2.4.7.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="604adce72a320783de425348e53e7802b20c3fb7">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/xUtils-2.4.7-6a046b9e164946da61a62afb5cb48387239e3939.jar" />
     </item>
     <item
         jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-SinaWeibo-2.5.7.jar"
@@ -149,11 +30,172 @@
         <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-2.5.7-5eb6ab966b3b471da9dc563e92bcaded4e2e6886.jar" />
     </item>
     <item
-        jar="/Users/gaoruishan/android-sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Twitter-2.5.7.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9d901bd56bcc446524400b05c794ce8326a47b65.jar" />
+        sha1="77db5625390fb7b34d91bfa71862d9885a22abaa">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Twitter-2.5.7-efc4a3d74fcbb135c376dc2a4569cb28fc8f7544.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Facebook-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2f9a1ded6bb27e0ce83f465756a4b4f65c322def">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Facebook-2.5.7-e842bc25d32ae4b59cae34141469435a7d09b35e.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Core-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="25e67604b25ca1160a50cbd6a1657d11ec0396fb">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.5.7-19cd66ea294000012f60e3c8227c381ab5f08b7b.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/xUtils-2.4.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="604adce72a320783de425348e53e7802b20c3fb7">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/xUtils-2.4.7-08dd7f849f094040ab88ade992676e1e673c0489.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Wechat-Favorite-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="0ab12e86664b655baa13f495a111cc68be96bd2b">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Favorite-2.5.7-e6219b30b73db45cde6690c70b7a6a1dcdee60f7.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-SinaWeibo-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="9c2f1f5ae1f59fd6422237cd963a4c72ffd5bea9">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-2.5.7-f7b8ad1e526f3c058b8f482dd9a4ed6fef00a131.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="71cbc10d22470e5c162083883fde221f8cb53ae7">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.5.7-08e72b90992be1063e68d7f1c954c5f7f3fe5b58.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Core-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="de8398c14e9f17901d2d75956557acc960c15f7b">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.5.7-b3099e1121c7b02479ddb08d723024f45d0fc3d0.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/AnalysisSDK_0.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="fcbe3a962f6385d900d9b027e5b57877e60c3505">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/AnalysisSDK_0.0.3-824e6459136c7bbed6635dba11c3afa6be6dd2c6.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/fastjson-1.1.33.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="43b49a6933e68564ddc291d941db1bd1bd4166fc">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/fastjson-1.1.33-6623069a6f61fa53c10e13a0ae2df8b3c4b020e1.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-QQ-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="5695093ba99154d84be4e12132bc384aeb613d73">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.5.7-3d7f1e2c706b94a5efbcc7c4bb359a5d3248c953.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-QZone-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="eec402205e45c215154dbf06eb66373f376fc0fd">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-QZone-2.5.7-bc25884950ffffa33a09f506f614205acac024c3.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/httpmime-4.1.3-ad6ec98d325b857fedcc1236b812997b933e82eb.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/SMSSDK-1.1.6.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7e54148d164e6e61871547e4d9182fe1c2da6eb9">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/SMSSDK-1.1.6-d11cb3177861ffdc0e2c90fc1722e1f1dd778dcd.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/jpush-sdk-release1.7.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4f743a1eddb7679dc54243ba3961cef48dd65099">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/jpush-sdk-release1.7.2-c38f7f335c2be357ef91fb25bd8a9e2aa6bcdb40.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-ShortMessage-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="edacd1b6df9a34d52aec745e0ba26cc4817b46cc">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-ShortMessage-2.5.7-77fad00ffa39e5d2fe01272d4fdf59c6ec165388.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Email-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8db046faf247fc554020efa360bff6043bed1b31">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Email-2.5.7-89a5828c67cad39b8c7bc3d111e63a3d3a7b5990.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Core-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="25e67604b25ca1160a50cbd6a1657d11ec0396fb">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.5.7-f7173414219d8a568a58fe5a9013b67bdd2866f2.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-QQ-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="5695093ba99154d84be4e12132bc384aeb613d73">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.5.7-6d620c48e9244f9b9dd7d69f12c16bc09a1e04ee.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Wechat-Moments-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="04b9f4f246636fb6a4bc4148530181bc6c739a5d">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-2.5.7-e7466d3a7da52b4a25fcd47d717c7432f2273c05.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Wechat-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="71cbc10d22470e5c162083883fde221f8cb53ae7">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.5.7-5495e50186f9ec8edb25604d48fcd766d1b9af29.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-QZone-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="eec402205e45c215154dbf06eb66373f376fc0fd">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-QZone-2.5.7-cc4612814a153970e061db3752d9fc7bab8513a1.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-TencentWeibo-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="b0b038c538a8c80cd80f1b619aa3c9ab8ee4f395">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-TencentWeibo-2.5.7-df2f78a4ca870f25c84920f7533d308e6fad8596.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/httpmime-4.1.3-bf48b0432480566240bebe38d1060a5f3430f67b.jar" />
     </item>
     <item
         jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
@@ -161,6 +203,118 @@
         revision="23.0.0 rc3"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
         <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/classes-73354f6383c5b0c8a6508b211abced36667507a4.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/xUtils-2.4.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="604adce72a320783de425348e53e7802b20c3fb7">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/xUtils-2.4.7-6a046b9e164946da61a62afb5cb48387239e3939.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/fastjson-1.1.33.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="43b49a6933e68564ddc291d941db1bd1bd4166fc">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/fastjson-1.1.33-3c9190cbdd5ad6d434f74b14910bf6bbc3a5d236.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/classes-802203942ea81a166cd89cb187efe490ef554e3a.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/jpush-sdk-release1.7.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4f743a1eddb7679dc54243ba3961cef48dd65099">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/jpush-sdk-release1.7.2-f7a63f1be8862d591aaa7d552c92b943f6b14d7d.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Twitter-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="77db5625390fb7b34d91bfa71862d9885a22abaa">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Twitter-2.5.7-94cccab5a0337906979f678e2d85248f12054884.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Facebook-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="2f9a1ded6bb27e0ce83f465756a4b4f65c322def">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Facebook-2.5.7-340aa22aa89b12beea7df8bc276480de62128fa0.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/zxing.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/zxing-2f04011ec76a6428836c3b77b5460afd8b8cb830.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android-sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9d901bd56bcc446524400b05c794ce8326a47b65.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/zxing.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/zxing-f3dbef6b0489c55c05be0f3709999c16f44803e8.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Email-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8db046faf247fc554020efa360bff6043bed1b31">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Email-2.5.7-3e2cd9e1cc0b8da1e249dd537f96485131d12f8c.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/mframework.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/mframework-1f6f3b8a77b02decc64f118acd9f3e37dd3199e9.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/SMSSDK-1.1.6.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7e54148d164e6e61871547e4d9182fe1c2da6eb9">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/SMSSDK-1.1.6-d113346445c3269a2c177943b547e4062325585f.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Favorite-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="0ab12e86664b655baa13f495a111cc68be96bd2b">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Favorite-2.5.7-2c2051f1584cf2b9963edd9a4fa5ecd34b0dce66.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-Wechat-Moments-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="04b9f4f246636fb6a4bc4148530181bc6c739a5d">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-2.5.7-7b3819752a5791ecb7e1d9c12957b7f6909ed9d1.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/libs/ShareSDK-TencentWeibo-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="b0b038c538a8c80cd80f1b619aa3c9ab8ee4f395">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/pre-dexed/debug/ShareSDK-TencentWeibo-2.5.7-427f6fc4d92adf7e00bfbea8f1f62bd33a46c7b7.jar" />
+    </item>
+    <item
+        jar="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/libs/ShareSDK-Wechat-Core-2.5.7.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="de8398c14e9f17901d2d75956557acc960c15f7b">
+        <dex dex="/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.5.7-75a8bcc9f5a6bc54006e2d0de8e91624efd32ba2.jar" />
     </item>
 
 </items>

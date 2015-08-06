@@ -5,4 +5,4 @@
     <corners android:bottomRightRadius="5dp"  
         android:bottomLeftRadius="5dp" android:topLeftRadius="5dp"  
         android:topRightRadius="5dp" />  
-</shape>  <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/edit_corner_bg.xml -->
+</shape>  <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/drawable/edit_corner_bg.xml -->

@@ -3,4 +3,4 @@
 
     <item android:drawable="@drawable/actionbar_tab_pressed" android:state_selected="true"/>
     <item android:drawable="@drawable/actionbar_tab_nor"/>
-</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/actionbar_tab_bg.xml -->
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/drawable/actionbar_tab_bg.xml -->

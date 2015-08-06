@@ -119,4 +119,4 @@
         android:text="@string/tips"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
-</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/activity_changepwd.xml -->
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/activity_changepwd.xml -->

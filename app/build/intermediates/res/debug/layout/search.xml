@@ -56,4 +56,4 @@
         android:layout_alignLeft="@+id/et_search"
         android:src="@drawable/search" />
 
-</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/search.xml -->
+</RelativeLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/search.xml -->

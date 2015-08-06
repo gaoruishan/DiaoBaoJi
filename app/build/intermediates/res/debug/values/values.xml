@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/array.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/array.xml -->
     <eat-comment/>
     <string-array name="spinnername">
         <item>支付宝wap</item>
@@ -8,7 +8,7 @@
         <item>银联支付 </item>
         <item>支付宝</item>
     </string-array>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="actionBarDivider"/>
     <attr format="reference" name="actionBarItemBackground"/>
@@ -82,7 +82,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="aliceblue">#f0f8ff</color>
     <color name="antiquewhite">#faebd7</color>
@@ -255,7 +255,7 @@
     <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/></declare-styleable>
     <declare-styleable name="Theme"><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height">48dip</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
@@ -274,19 +274,19 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="buttom_tab_font_size">16sp</dimen>
     <dimen name="content_text_size">12sp</dimen>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="header_footer_left_right_padding">24dp</dimen>
     <dimen name="header_footer_top_bottom_padding">12dp</dimen>
@@ -294,7 +294,7 @@
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
     <dimen name="space_15">15dp</dimen>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/drawables.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/drawables.xml -->
     <eat-comment/>
     <item name="btn_bg_click" type="drawable">#fffcb08a</item>
     <item name="btn_bg_nomal" type="drawable">#fff1f1f1</item>
@@ -303,15 +303,15 @@
     <item name="yyasp_disenableColor" type="drawable">#ff505050</item>
     <item name="yyasp_enableColor" type="drawable">#ff1e1e1e</item>
     <item name="yyasp_whiteColor" type="drawable">#fff1f1f1</item>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="about_version_code" type="id">false</item>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="auto_focus" type="id"/>
     <item name="decode" type="id"/>
@@ -320,17 +320,17 @@
     <item name="encode_failed" type="id"/>
     <item name="encode_succeeded" type="id"/>
     <item name="gridview" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="home" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="launch_product_query" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="quit" type="id"/>
     <item name="restart_preview" type="id"/>
@@ -340,14 +340,14 @@
     <item name="search_book_contents_succeeded" type="id"/>
     <item name="split" type="id">false</item>
     <item name="webview" type="id"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <integer name="app_version_code">3</integer>
     <string name="_">\@</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -362,7 +362,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about_us">关于我们</string>
     <string name="action_settings">Settings</string>
@@ -374,17 +374,17 @@
     <string name="app_version">1.0.2</string>
     <string name="arrive_buttom">已到底部</string>
     <string name="auto_login">自动登录</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="baidutieba">百度贴吧</string>
     <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="beijin">北京</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="bluetooth">蓝牙</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="brand">品牌：</string>
     <string name="brands">品 牌</string>
@@ -392,10 +392,10 @@
     <string name="buttom_tab_home">主页</string>
     <string name="buttom_tab_shopping">购物车</string>
     <string name="buttom_tab_sort">分类</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="cancel">取消</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancelled">已注销！</string>
     <string name="care4">三、知金关爱</string>
@@ -423,53 +423,53 @@
     <string name="description">ImageView</string>
     <string name="diaobaoji">http://wap.koudaitong.com/v2/showcase/homepage?kdt_id=21980&amp;spm=f4316039_h20955_f1261786</string>
     <string name="doller">￥0元</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="douban">豆瓣</string>
     <string name="dropbox">Dropbox</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="edits">编辑</string>
     <string name="ellipsis">...........</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="email">邮件</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ensure_ok">确认并提交</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="evernote">印象笔记</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="exit_str">再按一次退出</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="facebook">Facebook</string>
     <string name="facebookmessenger">Facebook Messenger</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="finish">完成</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="flickr">Flickr</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="forget_password">忘记密码 ?</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="foursquare">FourSquare</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="gender">性别：</string>
     <string name="genders">性别：</string>
     <string name="getmore">加载更多</string>
     <string name="gifts">"赠可爱小熊或时尚的耳罩 "</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
     <string name="googleplus">Google+</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="guestbook_cancelmsg">取消</string>
     <string name="head">头像：</string>
@@ -484,12 +484,12 @@
     <string name="individual_sign">个性签名：</string>
     <string name="info_camera">照相</string>
     <string name="info_clothing">搭配</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instagram">Instagram</string>
     <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
     <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/instapaper_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/instapaper_strings.xml -->
     <eat-comment/>
     <string formatted="false" name="instapager_login_html"><![CDATA[
 <!DOCTYPE html>
@@ -557,27 +557,27 @@ function login(form){
 </body>
 </html>
 ]]></string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instapaper">Instapaper</string>
     <string name="instapaper_email">邮箱</string>
     <string name="instapaper_login">登录</string>
     <string name="instapaper_logining">登录中…</string>
     <string name="instapaper_pwd">密码</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="jian">满减</string>
     <string name="jian_19">"满199元减19元 "</string>
     <string name="jian_199">"满299元减29元 "</string>
     <string name="jian_9">"满99元减9元 "</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="kaixin">开心网</string>
     <string name="kakaostory">KakaoStory</string>
     <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
     <string name="kakaotalk">KakaoTalk</string>
     <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="kouhu">核心价值观：关爱、成长、分享
 \n
@@ -586,31 +586,31 @@ function login(form){
 \n品牌主张：不仅高一步，更需远一程
 \n
 \n品牌精神：是金子必会发光</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="laiwang">来往</string>
     <string name="laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
     <string name="laiwangmoments">来往动态</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ld">人像亮度　：</string>
     <string name="level_new">.新旧程度：全新未使用</string>
     <string name="like_fail">点赞失败</string>
     <string name="like_success">点赞成功</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="line">Line</string>
     <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="lines">---------------------------</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="linkedin">领英</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="list_friends">%s的朋友</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="load_more">加载更多</string>
     <string name="loading">"   加载中.."</string>
@@ -620,26 +620,26 @@ function login(form){
     <string name="market_price">"市场价 12000 RMB "</string>
     <string name="material_inner">.内部材质：绒布</string>
     <string name="material_outer">.面料材质：西皮</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="mingdao">明道</string>
     <string name="mingdao_share_content">网页分享</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="moblie">手机号码</string>
     <string name="modify_success">修改成功</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="multi_share">图文分享</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="my_coupon">我的优惠券</string>
     <string name="my_order">我的订单</string>
     <string name="name">姓名:</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="network_problem">网络出了问题!</string>
     <string name="nickname">昵称：</string>
@@ -660,29 +660,29 @@ function login(form){
     <string name="passwords">密码：</string>
     <string name="payment_way">支付方式：</string>
     <string name="phone">电话:</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="please_input_message">"  请在此输入你的留言！"</string>
     <string name="please_input_newpwd">请输入新密码</string>
     <string name="please_input_oldpwd">请输入旧密码</string>
     <string name="please_input_phpne">请输入手机号码</string>
     <string name="please_login">请登录!</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pocket">Pocket</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="preferent">优惠</string>
     <string name="prices">价 格</string>
     <string name="proj_name">ShareSDK Socialization</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh">下拉刷新</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/pull_refresh_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/pull_refresh_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
@@ -690,31 +690,31 @@ function login(form){
     <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
     <string name="pull_to_refresh_refreshing_label">Loading…</string>
     <string name="pull_to_refresh_release_label">Release to refresh…</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qq">QQ</string>
     <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
     <string name="qzone">QQ空间</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="refresh">刷新重试</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="refreshing">刷新中…</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="register">注册 ></string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="release_to_refresh">松开刷新</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="remarks">备注：</string>
     <string name="remeber_password">记住密码</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="renren">人人网</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="rent_date">租期：</string>
     <string name="rents10">139元/10天</string>
@@ -728,68 +728,68 @@ function login(form){
     <string name="sc">色彩饱和</string>
     <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
     <string name="secret">保密</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_a_friend">请选择一个朋友</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="select_all">全选</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_one_plat_at_least">请选择一个目标平台</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="select_sum">总共选择了：</string>
     <string name="set_order">立即下单</string>
     <string name="settlement">结算</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="shake2share">摇晃手机！</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="share">分 享</string>
     <string name="shareTitle">请输入您想要说的话：</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="share_canceled">分享已取消</string>
     <string name="share_completed">分享成功</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="share_content">ShareSDK for Android不仅集成简单、支持如QQ好友、微信、新浪微博、腾讯微博等所有社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
     <string name="share_content_short">ShareSDK不仅集成简单、支持如微信、新浪微博、腾讯微博等社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://mob.com @ShareSDK</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="share_failed">分享失败</string>
     <string name="share_to">分享到</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="share_to_baidutieba">分享到百度贴吧</string>
     <string name="share_to_mingdao">分享到明道</string>
     <string name="share_to_qq">分享到QQ</string>
     <string name="share_to_qzone">分享到QQ空间</string>
     <string name="share_to_qzone_default">来自%s的分享</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="sharesdk">ShareSDK评论与赞组件</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="sharing">分享操作正在后台进行…</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="shop_cart">购物车</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="shortmessage">信息</string>
     <string name="sinaweibo">新浪微博</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="size">.尺寸:31cm x 25cm x 14cm</string>
     <string name="sm_item_comment_like">评论与赞</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="sohumicroblog">搜狐微博</string>
     <string name="sohusuishenkan">搜狐随身看</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="sort">. 款式： 手拎包</string>
     <string name="structure_inner">.内部结构:1个按扣贴袋， 1个手机拉</string>
@@ -797,10 +797,10 @@ function login(form){
     <string name="style_open">.开合方式：拉链</string>
     <string name="styles">款式：</string>
     <string name="styless">款 式</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tencentweibo">腾讯微博</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="things">1、为支教女教师圆梦
 \n
@@ -814,23 +814,23 @@ function login(form){
     <string name="title_activity_orders">OrdersActivity</string>
     <string name="title_null">标题:缺失</string>
     <string name="total">合计：</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tumblr">Tumblr</string>
     <string name="twitter">Twitter</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="unfilled_orders">未完成订单</string>
     <string name="update_success">上传成功</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="use_login_button">请改用“登录”按钮</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="user_infos">个人信息</string>
     <string name="username">用户名：</string>
     <string name="uses">使用</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="vkontakte">VK</string>
     <string name="website">http://www.mob.com</string>
@@ -842,16 +842,16 @@ function login(form){
     <string name="weibo_upload_content">分享图片</string>
     <string name="whatsapp">WhatsApp</string>
     <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="woman">女</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="yixin">易信</string>
     <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
     <string name="yixinmoments">易信朋友圈</string>
     <string name="youdao">有道云笔记</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="yyasp_camera">拍照</string>
     <string name="yyasp_change">调整</string>
@@ -864,7 +864,7 @@ function login(form){
     <string name="yyasp_toRight">右旋转</string>
     <string name="yyasp_toShort">矮一点</string>
     <string name="yyasp_toThin">瘦一点</string>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="AppBaseTheme">
 
@@ -883,7 +883,7 @@ function login(form){
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
         <item name="android:textColor">@android:color/primary_text_light</item>
@@ -1246,7 +1246,7 @@ function login(form){
     </style>
     <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light"/>
     <style name="Theme.Base.Light" parent="android:Theme.Light"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.CustomTheme" parent="AppBaseTheme">
 
@@ -1260,7 +1260,7 @@ function login(form){
         <item name="android:actionBarTabTextStyle">@style/Widget.CustomActionBarTextStyle</item>
         <item name="android:actionButtonStyle">@style/Widget.CustomActionButtonStyle</item>
     </style>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar.Solid"/>
@@ -1476,7 +1476,7 @@ function login(form){
     <style name="Widget.AppCompat.ProgressBar" parent="Widget.AppCompat.Base.ProgressBar"/>
     <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal"/>
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner"/>
-    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Widget.CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@color/white</item>

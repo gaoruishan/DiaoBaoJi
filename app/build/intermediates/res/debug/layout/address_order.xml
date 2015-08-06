@@ -136,4 +136,4 @@
         android:contentDescription="@string/description"
         android:src="@drawable/line" />
 
-</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/layout/address_order.xml -->
+</LinearLayout><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/layout/address_order.xml -->

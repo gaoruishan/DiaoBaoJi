@@ -4,4 +4,4 @@
     <item android:state_selected="true" android:color="@color/red"/>
     <item android:color="@color/black"/>
 
-</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/color/actionbar_color_selector.xml -->
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/color/actionbar_color_selector.xml -->

@@ -5,4 +5,4 @@
     <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/yyasp_bg_clothing_btn_change_fat_2" />
     <item android:state_enabled="true" android:drawable="@drawable/yyasp_bg_clothing_btn_change_fat_1" />
     <item android:state_enabled="false" android:drawable="@drawable/yyasp_bg_clothing_btn_change_fat_2" />
-</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJiNew011/app/src/main/res/drawable/bg_clothing_btn_change_fat.xml -->
+</selector><!-- From: file:/Users/gaoruishan/android/android_studio/DiaoBaoJi/app/src/main/res/drawable/bg_clothing_btn_change_fat.xml -->
